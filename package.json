@@ -6,7 +6,6 @@
   },
   "dependencies": {
     "ansi": "~0.2.1",
-    "eyes": "~0.1.8",
     "prettyjson": "git+https://github.com/mmalecki/prettyjson.git#pretty-errors"
   }
 }

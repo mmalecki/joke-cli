@@ -1,7 +1,6 @@
 var Writable = require('stream').Writable;
 var ansi = require('ansi');
 var util = require('util');
-var eyes = require('eyes');
 var prettyjson = require('prettyjson');
 
 var JokeCLI = module.exports = function (options) {
@@ -12,8 +11,6 @@ var JokeCLI = module.exports = function (options) {
 
   this.err = ansi(options.err || process.stderr);
   this.out = ansi(options.out || process.stdout);
-
-  this.eyes = eyes.inspector({ stream: null });
 
   this.levels = {
     fatal: {
