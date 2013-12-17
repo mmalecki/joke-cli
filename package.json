@@ -1,11 +1,17 @@
 {
   "name": "joke-cli",
   "version": "0.1.1",
+  "author": "Maciej Małecki <me@mmalecki.com>",
   "devDependencies": {
     "joke": "0.0.1-1"
   },
   "dependencies": {
     "ansi": "~0.2.1",
-    "prettyjson": "git+https://github.com/mmalecki/prettyjson.git#pretty-errors"
-  }
+    "prettyjson": "~0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmalecki/joke-cli.git"
+  },
+  "license": "GIT"
 }
